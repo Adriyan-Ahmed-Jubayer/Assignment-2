@@ -447,6 +447,7 @@
 
   .games-card-container {
     flex-direction: column;
+    gap: 70px;
     align-items: center;
   }
 
