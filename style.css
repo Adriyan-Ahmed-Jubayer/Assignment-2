@@ -183,6 +183,35 @@ background-clip: text;
     right: 175px;
 }
 
+/* Game Section Styles */
+
+.game-container {
+  margin: 0px 240px 120px 240px;  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap:27px;
+}
+
+.game {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    border: none;
+    border-radius: 50px;
+    background: #FFF;
+    padding: 10px;
+    color:#0B0223;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.game:hover {
+    color: #F948B2;
+    border: 1px solid #F948B2;
+}
+
 /* Responsive Media Query Starts From Here */
 
 @media screen and (max-width: 576px) {
