@@ -160,7 +160,7 @@ background-clip: text;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 240px 120px 440px;
+    margin: 0 240px 120px 360px;
 }
 
 .no-installs-games-content-container {
@@ -171,6 +171,7 @@ background-clip: text;
 .no-installs-title {
     color: var(--primary-text-color);
     font-size: 3rem;
+    margin: 24px 0;
 }
 
 .no-installs-games-image-container {
@@ -328,5 +329,34 @@ background-clip: text;
 
     .games-card-container {
         flex-direction: column;
+    }
+
+    /* Play Instantly Section Responsive */
+
+    .no-installs-game-container {
+        flex-direction: column;
+        margin: 40px 32.5px;
+    }
+
+    .no-installs-games-content-container {
+        text-align: center;
+    }
+
+    .no-installs-title {
+        font-size: 24px;
+    }
+
+    .main-image {
+        width: 320px;
+        padding-left:60px ;
+    }
+
+    .overflow-image {
+        bottom: 95px;
+        right: 5px;
+    }
+
+    .overflow {
+        width: 140px;
     }
 }
