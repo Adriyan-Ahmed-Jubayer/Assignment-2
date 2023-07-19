@@ -261,6 +261,9 @@ background-clip: text;
 /* Responsive Media Query Starts From Here */
 
 @media screen and (max-width: 425px) {
+
+    /* Navigation ber Responsive */
+
     .navigation-ber {
         box-shadow: none;
         flex-direction: column;
@@ -272,6 +275,8 @@ background-clip: text;
         flex-direction: column;
         padding: 0;
     }
+
+    /* Banner Section Responsive */
 
     .banner-container {
         flex-direction: column-reverse;
@@ -305,5 +310,23 @@ background-clip: text;
 
     .banner-description {
         font-size: 12px;
+    }
+
+    /* Online Game Section Responsive */
+
+    .online-games-container {
+        margin: 60px 32.5px;
+    }
+
+    .online-games-title {
+        font-size: 24px;
+    }
+
+    .online-games-description {
+        font-size: 12px;
+    }
+
+    .games-card-container {
+        flex-direction: column;
     }
 }
