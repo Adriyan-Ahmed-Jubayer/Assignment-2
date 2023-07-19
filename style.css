@@ -44,7 +44,7 @@ background-clip: text;
 
 /* Navigation Section Styles */
 
-.navigation-ber {
+.navigation-bar {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -70,6 +70,9 @@ background-clip: text;
     border: none;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
+    display: flex;
+    align-items: center;
+    gap: 16px;
 }
 
 /* Banner Section styles */
@@ -112,6 +115,22 @@ background-clip: text;
    color: var(--secondery-text-color);
    font-size: 1.25rem;
    font-weight: 500;
+}
+
+.pink-btn, .blue-btn {
+    padding: 21px 40px;
+    color: #FFF;
+    font-size: 20px;
+    border: none;
+    border-radius: 48px;
+}
+
+.pink-btn {
+    background-color: #FF42A5;
+}
+
+.blue-btn {
+    background-color: #4EC5F7;
 }
 
 .banner-image-container {
@@ -182,7 +201,7 @@ background-clip: text;
     width: 319px;
     position: relative;
     bottom: 290px;
-    right: 175px;
+    right: 150px;
 }
 
 /* Game Section Styles */
@@ -254,6 +273,7 @@ background-clip: text;
     display: flex;
     justify-content: center;
     gap: 60px;
+    margin-bottom: 70px;
 }
 
 .footer-description {
@@ -280,9 +300,9 @@ background-clip: text;
         font-size: 28px;
     }
 
-    /* Navigation ber Responsive */
+    /* Navigation bar Responsive */
 
-    .navigation-ber {
+    .navigation-bar {
         box-shadow: none;
         flex-direction: column;
         height:300px;
@@ -301,6 +321,16 @@ background-clip: text;
     .follow-btn {
         padding: 9px 12px;
         border-radius: 5px;
+        font-size: 12px;
+        gap: 8px;
+    }
+
+    .youtube {
+        width: 25px;
+    }
+
+    .tik-tok {
+        width: 20px;
     }
 
     /* Banner Section Responsive */
@@ -365,7 +395,7 @@ background-clip: text;
 
     .no-installs-game-container {
         flex-direction: column;
-        margin: 40px 32.5px;
+        margin: 40px 0px;
     }
 
     .no-installs-games-image-container {
