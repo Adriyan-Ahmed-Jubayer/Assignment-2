@@ -165,10 +165,10 @@
 }
 
 .overlay-description {
-    color: #ff42a5;
-    font-size: 20px;
-    font-weight: 600;
-    text-align: center;
+  color: #ff42a5;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
 }
 
 .card {
@@ -185,26 +185,42 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  left: 50%;
+  right: 50%;
   bottom: 50%;
   text-align: center;
   transform: translate(-50%, -50%);
   width: 48px;
   height: 48px;
-  background-image: url("icon/play-button\ 1.png");
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0;
   transition: opacity 0.3s;
 }
 
+.overlay-title {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  right: 50%;
+  bottom: 50%;
+  width: 200px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.card:hover .overlay-title {
+  opacity: 1;
+}
+
 .card:hover .overlay {
-    opacity: 1;
+  opacity: 1;
 }
 
 .card:hover {
-    border: 3px solid #ff42a5;
-    border-radius: 20px;
+  border: 3px solid #ff42a5;
+  border-radius: 20px;
 }
 
 .card-description {
@@ -407,7 +423,8 @@
     font-size: 12px;
   }
 
-  .pink-btn, .blue-btn {
+  .pink-btn,
+  .blue-btn {
     padding: 10px 20px;
     font-size: 10px;
   }
