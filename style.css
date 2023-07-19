@@ -263,6 +263,10 @@ background-clip: text;
 
 @media screen and (max-width: 425px) {
 
+    .primary-description {
+        font-size: 12px;
+    }
+
     /* Navigation ber Responsive */
 
     .navigation-ber {
@@ -316,7 +320,7 @@ background-clip: text;
     /* Online Game Section Responsive */
 
     .online-games-container {
-        margin: 60px 32.5px;
+        margin: 20px 32.5px;
     }
 
     .online-games-title {
@@ -331,11 +335,19 @@ background-clip: text;
         flex-direction: column;
     }
 
+    .card-description {
+        font-size: 16px;
+    }
+
     /* Play Instantly Section Responsive */
 
     .no-installs-game-container {
         flex-direction: column;
         margin: 40px 32.5px;
+    }
+
+    .no-installs-games-image-container {
+        height: 400px;
     }
 
     .no-installs-games-content-container {
@@ -345,6 +357,8 @@ background-clip: text;
     .no-installs-title {
         font-size: 24px;
     }
+
+    
 
     .main-image {
         width: 320px;
@@ -358,5 +372,23 @@ background-clip: text;
 
     .overflow {
         width: 140px;
+    }
+
+    /* Game Section Responsive */
+
+    .game-container {
+        margin: 0px 32.5px 50px;
+        gap: 5px;
+    }
+
+    .game {
+        width: 110px;
+        font-size: 6px;
+        gap:0px;
+        padding: 5px;
+    }
+
+    .game-logo {
+        width: 25px;
     }
 }
