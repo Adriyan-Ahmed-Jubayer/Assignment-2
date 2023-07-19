@@ -25,6 +25,12 @@
     gap: 20px;
 }
 
+.primary-description {
+    color: var(--secondery-text-color);
+    font-size: 1.13rem;
+    margin-bottom: 48px;
+}
+
 .primary-text-design {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
 background-clip: text;
@@ -129,11 +135,8 @@ background-clip: text;
 }
 
 .online-games-description {
-    color: var(--secondery-text-color);
-    font-size: 1.13rem;
     margin-bottom: 48px;
 }
-
 .games-card-container {
     display: flex;
     justify-content: space-around;
@@ -149,6 +152,37 @@ background-clip: text;
     font-size: 1.25rem;
     font-weight: 500;
 }
+
+/* Play Instantly Section Styles */
+
+.no-installs-game-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 240px 120px 440px;
+}
+
+.no-installs-games-content-container {
+    max-width: 341px;
+    text-align: right;
+}
+
+.no-installs-title {
+    color: var(--primary-text-color);
+    font-size: 3rem;
+}
+
+.no-installs-games-image-container {
+    max-height: 725px;
+}
+
+.overflow-image {
+    width: 319px;
+    position: relative;
+    bottom: 290px;
+    right: 175px;
+}
+
 /* Responsive Media Query Starts From Here */
 
 @media screen and (max-width: 576px) {
