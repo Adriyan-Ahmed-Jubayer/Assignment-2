@@ -216,9 +216,13 @@ background-clip: text;
 
 /* Footer Section Styles */
 
-.footer {
+
+.footer-container {
     padding: 120px 0px;
     background-color: var(--primary-text-color);
+}
+
+.footer {
     text-align: center;
 }
 
@@ -233,6 +237,7 @@ background-clip: text;
     justify-content: center;
     gap: 60px;
     margin: 56px 0px;
+    padding-left: 0;
 }
 
 .social-media-container {
@@ -255,16 +260,24 @@ background-clip: text;
     color: rgba(255, 255, 255, 0.60);
 }
 
-.all {
-    display:none;
-}
-
 /* Responsive Media Query Starts From Here */
 
 @media screen and (max-width: 425px) {
 
     .primary-description {
         font-size: 12px;
+    }
+
+    .logo-container {
+        gap: 8px;
+    }
+
+    .logo {
+        width: 60px;
+    }
+
+    .logo-title {
+        font-size: 28px;
     }
 
     /* Navigation ber Responsive */
@@ -279,6 +292,15 @@ background-clip: text;
     .list-container {
         flex-direction: column;
         padding: 0;
+    }
+
+    .list-container li {
+        font-size: 12px;
+    }
+
+    .follow-btn {
+        padding: 9px 12px;
+        border-radius: 5px;
     }
 
     /* Banner Section Responsive */
@@ -377,7 +399,7 @@ background-clip: text;
     /* Game Section Responsive */
 
     .game-container {
-        margin: 0px 32.5px 50px;
+        margin: 0px 32.5px 30px;
         gap: 5px;
     }
 
@@ -390,5 +412,43 @@ background-clip: text;
 
     .game-logo {
         width: 25px;
+    }
+
+    /* Footer Section Responsive */
+
+    .footer-container {
+        padding: 40px 0;
+    }
+
+    .footer {
+        padding: 0px;
+        max-width: 200px;
+        margin: 0px auto;
+        text-align: center;
+    }
+
+    .menu-list-container {
+        flex-wrap: wrap;
+        font-size: 10px;
+        gap: 20px;
+    }
+
+    .social-media-container {
+        flex-wrap: wrap;
+    }
+
+    .social-media-container img {
+        width: 30px;
+    }
+
+    .security-list {
+        flex-wrap: wrap;
+        font-size: 8px;
+        gap: 20px;
+        padding-left: 0;
+        margin-bottom: 30px;
+    }
+    .footer-description {
+        font-size: 8px;
     }
 }
