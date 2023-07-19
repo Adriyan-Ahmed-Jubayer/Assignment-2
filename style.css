@@ -1,6 +1,8 @@
 /* Common Styles Start From Here */
 
 * {
+    margin: 0;
+    padding: 0;
   font-family: "Work Sans", sans-serif;
 }
 
@@ -337,7 +339,7 @@
 
 /* Responsive Media Query Starts From Here */
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 576px) {
   .primary-description {
     font-size: 12px;
   }
@@ -445,6 +447,7 @@
 
   .games-card-container {
     flex-direction: column;
+    align-items: center;
   }
 
   .card-description {
