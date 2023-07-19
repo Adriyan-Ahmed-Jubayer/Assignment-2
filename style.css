@@ -6,6 +6,7 @@
 
 :root {
     --primary-text-color: #0B0223;
+    --secondery-text-color: #534C64;
 }
 
 .logo-title {
@@ -41,6 +42,7 @@ background-clip: text;
     justify-content: space-between;
     align-items: center;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    height: 130px;
 }
 
 .list-container {
@@ -100,7 +102,7 @@ background-clip: text;
    display: flex;
    align-items: center;
    gap: 12px;
-   color: #534C64;
+   color: var(--secondery-text-color);
    font-size: 1.25rem;
    font-weight: 500;
 }
@@ -109,6 +111,44 @@ background-clip: text;
     padding-right: 240px;
 }
 
+/* Online Games & Videos Section Styles */
+
+.online-games-container {
+    margin: 120px 240px;
+}
+
+.games-content-container {
+    text-align: center;
+}
+
+.online-games-title {
+    color: var(--primary-text-color);
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 16px 0px;
+}
+
+.online-games-description {
+    color: var(--secondery-text-color);
+    font-size: 1.13rem;
+    margin-bottom: 48px;
+}
+
+.games-card-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+}
+
+.card {
+    max-width: 342px;
+}
+
+.card-description {
+    color: var(--secondery-text-color);
+    font-size: 1.25rem;
+    font-weight: 500;
+}
 /* Responsive Media Query Starts From Here */
 
 @media screen and (max-width: 576px) {
