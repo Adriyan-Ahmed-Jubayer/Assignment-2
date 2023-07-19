@@ -13,6 +13,7 @@
     font-size: 2.8125rem;
     font-weight: 700;
     color: #0B0223;
+    margin: 0;
 }
 
 .title-design {
@@ -22,6 +23,7 @@
 .logo-container {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 20px;
 }
 
@@ -210,6 +212,46 @@ background-clip: text;
 .game:hover {
     color: #F948B2;
     border: 1px solid #F948B2;
+}
+
+/* Footer Section Styles */
+
+.footer {
+    padding: 120px 0px;
+    background-color: var(--primary-text-color);
+    text-align: center;
+}
+
+.footer-logo-title {
+    color: white;
+}
+
+.menu-list-container {
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin: 56px 0px;
+}
+
+.social-media-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.security-list {
+    list-style: none;
+    color:  rgba(255, 255, 255, 0.60);
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.60);
 }
 
 /* Responsive Media Query Starts From Here */
