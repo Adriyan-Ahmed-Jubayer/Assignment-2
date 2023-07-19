@@ -279,7 +279,7 @@
   gap: 16px;
   border: none;
   border-radius: 50px;
-  background: #fff;
+  background: rgba(255, 255, 255, 1);
   padding: 10px;
   color: #0b0223;
   font-size: 20px;
@@ -335,6 +335,10 @@
 
 .footer-description {
   color: rgba(255, 255, 255, 0.6);
+}
+
+.all {
+    display: none;
 }
 
 /* Responsive Media Query Starts From Here */
@@ -543,4 +547,109 @@
   .footer-description {
     font-size: 8px;
   }
+}
+
+/* Responsive Media Query for Tablet device */
+
+@media screen and (min-width: 576px) and (max-width: 960px) {
+
+    .primary-description {
+        font-size: 16px;
+      }
+
+      .logo-container {
+        gap: 14px;
+        margin-top: 40px;
+      }
+
+      .logo {
+        width: 80px;
+      }
+
+      .logo-title {
+        font-size: 45px;
+      }
+
+      .navigation-bar {
+        box-shadow: none;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0;
+      }
+
+      .btn-container {
+        margin: 30px;
+      }
+
+      .blue-btn {
+      }
+
+      .banner-container {
+        margin-top: 40px;
+        flex-direction: column;
+      }
+
+      .banner-content-container {
+        width: 700px;
+      }
+
+      .banner-image-container {
+        padding: 0;
+        margin: 0 auto;
+      }
+
+      .online-games-container {
+        margin: 0;
+        text-align: center;
+      }
+
+      .games-card-container {
+        flex-wrap: wrap;
+        gap: 80px;
+      }
+
+      .no-installs-game-container {
+        margin: 120px auto;
+        flex-direction: column;
+      }
+
+      .no-installs-games-image-container {
+        height: 700px;
+      }
+
+      .no-installs-games-content-container {
+        text-align: center;
+      }
+
+      .main-image {
+        width: 500px;
+        padding-left: 60px;
+      }
+
+      .overflow {
+        width: 250px;
+      }
+
+      .overflow-image {
+        bottom: 220px;
+        right: 60px;
+      } 
+      
+      .game-container {
+        margin: 60px 30px;
+      }
+
+      .game {
+        width: 200px;
+        font-size: 16px;
+        gap: 0px;
+        padding: 5px;
+      }
+
+      .game-logo {
+        width: 50px;
+      }
+
+      .footer-container {
+        padding: 40px 0;
 }
