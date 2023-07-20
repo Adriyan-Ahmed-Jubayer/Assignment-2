@@ -630,6 +630,8 @@
 
 @media screen and (min-width: 576px) and (max-width: 960px) {
 
+  /* Common Shared Styles */
+
     .primary-description {
         font-size: 16px;
       }
@@ -647,6 +649,8 @@
         font-size: 45px;
       }
 
+      /* Navbar Section Responsive */
+
       .navigation-bar {
         box-shadow: none;
         flex-direction: column;
@@ -659,8 +663,7 @@
         margin-top: 30px;
       }
 
-      .blue-btn {
-      }
+      /* Banner Section Responsive */
 
       .banner-container {
         margin-top: 40px;
@@ -678,6 +681,8 @@
         margin: 0 auto;
       }
 
+      /* We Are Gamer Section Responsive */
+
       .we-are-gamer-container {
         flex-direction: column;
         padding: 0px 0px 50px;
@@ -692,6 +697,8 @@
         width: 700px;
         text-align: center;
       }
+
+      /* Online Games & Videos Section Responsive */
 
       .online-games-container {
         margin: 0;
@@ -710,6 +717,8 @@
       .card-description {
         width: 342px;
       }
+
+      /* Offline Games Section Responsive */
 
       .no-installs-game-container {
         margin: 30px auto;
@@ -738,6 +747,8 @@
         bottom: 220px;
         right: 60px;
       } 
+
+      /* Game Section Responsive */
       
       .game-container {
         margin: 60px 30px;
@@ -753,6 +764,8 @@
       .game-logo {
         width: 50px;
       }
+
+      /* Footer Section Responsive */
 
       .footer-container {
           padding: 30px 0;
